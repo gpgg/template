@@ -1,5 +1,11 @@
 # My Template for Deep Learning
 
+## Usage
+
+```
+poetry install
+```
+
 ## Tools
 
 - pyenv: python version control.
