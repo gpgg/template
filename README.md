@@ -8,7 +8,7 @@ poetry install
 
 ## Tools
 
-- pyenv: python version control.
+- pyenv: python version management.
 
 use pyenv to set the python version:
 
