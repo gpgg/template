@@ -33,4 +33,6 @@ About formatting etc :
 - flake8
 - isort
 
-[reference](https://qiita.com/MasashiSD/items/a8ddc0b039a5b112b109)
+[reference1](https://qiita.com/MasashiSD/items/a8ddc0b039a5b112b109)
+
+[reference2](https://hippocampus-garden.com/jupyter_poetry_pipenv/)
