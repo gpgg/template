@@ -3,7 +3,7 @@
 ## Usage
 
 ```
-poetry install
+poetry update
 ```
 
 ## Tools
@@ -38,6 +38,11 @@ About formatting etc :
 - black
 - flake8
 - isort
+
+## Tested Platforms
+
+- Windows 11 Pro
+- MacBook Pro M1 Pro
 
 [reference1](https://qiita.com/MasashiSD/items/a8ddc0b039a5b112b109)
 
