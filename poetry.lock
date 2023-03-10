@@ -2257,7 +2257,7 @@ category = "main"
 optional = false
 python-versions = ">=3.7.0"
 files = [
-    {file = "torch-1.13.1%2Bcu117-cp310-cp310-linux_x86_64.whl", hash = "sha256:14c5c9db09df8cf1b3942a3479c779da6e293a84a162d8a6ac71e2bde30e30c5"},
+    {file = "torch-1.13.1%2Bcu117-cp38-cp38-linux_x86_64.whl", hash = "sha256:bbf9546f0d0d8b51263ca479637b426a88335fca0034f42cec63d4d32dee05af"},
 ]
 
 [package.dependencies]
@@ -2268,7 +2268,7 @@ opt-einsum = ["opt-einsum (>=3.3)"]
 
 [package.source]
 type = "url"
-url = "https://download.pytorch.org/whl/cu117/torch-1.13.1%2Bcu117-cp310-cp310-linux_x86_64.whl"
+url = "https://download.pytorch.org/whl/cu117/torch-1.13.1%2Bcu117-cp38-cp38-linux_x86_64.whl"
 [[package]]
 name = "torchaudio"
 version = "0.12.0"
@@ -2638,4 +2638,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8.10"
-content-hash = "9bbd7330b4ff751ea67954ef654421cf1089d3db5722c00761c899ade6db6e85"
+content-hash = "7084c84cdc1d426abc2a66be9b9d02cdc42cfe308de17b908b76782bb5d1340d"

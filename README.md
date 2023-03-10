@@ -43,7 +43,16 @@ About formatting etc :
 
 - Windows 11 Pro
 - MacBook Pro M1 Pro
+- Ubuntu 20.04
 
 [reference1](https://qiita.com/MasashiSD/items/a8ddc0b039a5b112b109)
 
 [reference2](https://hippocampus-garden.com/jupyter_poetry_pipenv/)
+
+Linux: Failed to create the collection when try adding any dependencies:
+
+Solution:
+ 
+https://github.com/python-poetry/poetry/issues/6719
+
+https://github.com/python-poetry/poetry/issues/1917#issuecomment-1380429197
