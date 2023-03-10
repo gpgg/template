@@ -49,10 +49,12 @@ About formatting etc :
 
 [reference2](https://hippocampus-garden.com/jupyter_poetry_pipenv/)
 
+[Poetry: Instructions for installing PyTorch](https://github.com/python-poetry/poetry/issues/6409)
+
 Linux: Failed to create the collection when try adding any dependencies:
 
 Solution:
- 
+
 https://github.com/python-poetry/poetry/issues/6719
 
 https://github.com/python-poetry/poetry/issues/1917#issuecomment-1380429197
