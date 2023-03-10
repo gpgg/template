@@ -2250,6 +2250,26 @@ typing-extensions = "*"
 type = "url"
 url = "https://download.pytorch.org/whl/cu116/torch-1.12.0%2Bcu116-cp38-cp38-win_amd64.whl"
 [[package]]
+name = "torch"
+version = "1.13.1+cu117"
+description = "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+category = "main"
+optional = false
+python-versions = ">=3.7.0"
+files = [
+    {file = "torch-1.13.1%2Bcu117-cp310-cp310-linux_x86_64.whl", hash = "sha256:14c5c9db09df8cf1b3942a3479c779da6e293a84a162d8a6ac71e2bde30e30c5"},
+]
+
+[package.dependencies]
+typing-extensions = "*"
+
+[package.extras]
+opt-einsum = ["opt-einsum (>=3.3)"]
+
+[package.source]
+type = "url"
+url = "https://download.pytorch.org/whl/cu117/torch-1.13.1%2Bcu117-cp310-cp310-linux_x86_64.whl"
+[[package]]
 name = "torchaudio"
 version = "0.12.0"
 description = "An audio package for PyTorch"
@@ -2283,6 +2303,23 @@ torch = "1.12.0"
 [package.source]
 type = "url"
 url = "https://download.pytorch.org/whl/cu116/torchaudio-0.12.0%2Bcu116-cp38-cp38-win_amd64.whl"
+[[package]]
+name = "torchaudio"
+version = "0.13.1+cu117"
+description = "An audio package for PyTorch"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "torchaudio-0.13.1%2Bcu117-cp38-cp38-linux_x86_64.whl", hash = "sha256:40263b2d45728fbff1db3381272be42970ff6e58f92994aa5872a5bd4c7e7264"},
+]
+
+[package.dependencies]
+torch = "1.13.1"
+
+[package.source]
+type = "url"
+url = "https://download.pytorch.org/whl/cu117/torchaudio-0.13.1%2Bcu117-cp38-cp38-linux_x86_64.whl"
 [[package]]
 name = "torchtext"
 version = "0.13.0"
@@ -2323,6 +2360,26 @@ tqdm = "*"
 [package.source]
 type = "url"
 url = "https://download.pytorch.org/whl/torchtext-0.13.0-cp38-cp38-win_amd64.whl"
+[[package]]
+name = "torchtext"
+version = "0.14.1"
+description = "Text utilities and datasets for PyTorch"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "torchtext-0.14.1-cp38-cp38-linux_x86_64.whl", hash = "sha256:ca60d46e084d431d16473d81a789010aa19d51b7b6ec868b600397409c2d9939"},
+]
+
+[package.dependencies]
+numpy = "*"
+requests = "*"
+torch = "1.13.1"
+tqdm = "*"
+
+[package.source]
+type = "url"
+url = "https://download.pytorch.org/whl/torchtext-0.14.1-cp38-cp38-linux_x86_64.whl"
 [[package]]
 name = "torchvision"
 version = "0.13.0"
@@ -2371,6 +2428,30 @@ scipy = ["scipy"]
 [package.source]
 type = "url"
 url = "https://download.pytorch.org/whl/cu116/torchvision-0.13.0%2Bcu116-cp38-cp38-win_amd64.whl"
+[[package]]
+name = "torchvision"
+version = "0.14.1+cu117"
+description = "image and video datasets and models for torch deep learning"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "torchvision-0.14.1%2Bcu117-cp38-cp38-linux_x86_64.whl", hash = "sha256:7409385139ce8864ceb2c82ffce338ebe15a55193f4b80c42a6d0f9cfd781629"},
+]
+
+[package.dependencies]
+numpy = "*"
+pillow = ">=5.3.0,<8.3.0 || >=8.4.0"
+requests = "*"
+torch = "1.13.1"
+typing-extensions = "*"
+
+[package.extras]
+scipy = ["scipy"]
+
+[package.source]
+type = "url"
+url = "https://download.pytorch.org/whl/cu117/torchvision-0.14.1%2Bcu117-cp38-cp38-linux_x86_64.whl"
 [[package]]
 name = "tornado"
 version = "6.2"
@@ -2557,4 +2638,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8.10"
-content-hash = "2657ad624ce8bdb03936f37a71e90a2dd288753aa2b1aa84377cdc669cf281d1"
+content-hash = "9bbd7330b4ff751ea67954ef654421cf1089d3db5722c00761c899ade6db6e85"
