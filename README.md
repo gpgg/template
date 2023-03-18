@@ -2,6 +2,12 @@
 
 ## Usage
 
+1. Install `pyenv` and `poetry`.
+
+2. Change your project name in `pyproject.toml`
+
+3. Run poetry command
+
 ```
 poetry update
 ```
